@@ -1,19 +1,19 @@
-## Ubuntu Dockerfile
+### Ubuntu Dockerfiles
 
-Ubuntu Dockerfile with essential tools and packages
+Ubuntu Dockerfiles based on (https://registry.hub.docker.com/u/library/ubuntu/)
 
-### Base Docker Image
+### Docker Tags
 
-* [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
-
+* `latest` (default): Ubuntu 16.04 (alias to `16.04`)
+* `16.04`: Ubuntu 16.04
+* `14.04`: Ubuntu 14.04
 
 ### Installation
 Execute either of the following:
 
-    docker pull srdc/ubuntu:14.04 [latest]    [downloads the image from Docker Hub]
-    docker build -t srdc/ubuntu:14.04 .       [builds from the local Dockerfile]
-
+    docker pull srdc/ubuntu:tag       [downloads the image from Docker Hub]
+    docker build -t srdc/ubuntu:tag .  [builds from the local Dockerfile]
 
 ### Usage
 
-    docker run -it --rm srdc/ubuntu
+    docker run -it --rm srdc/ubuntu:tag
