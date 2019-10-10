@@ -14,4 +14,4 @@ ENV HOME /root
 
 WORKDIR /root
 
-CMD ["bash"]
+CMD ["/bin/bash"]
