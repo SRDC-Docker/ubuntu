@@ -4,7 +4,8 @@ Ubuntu Dockerfiles based on (https://registry.hub.docker.com/u/library/ubuntu/)
 
 ### Docker Tags
 
-* `latest` (default): Ubuntu 16.04 (alias to `16.04`)
+* `latest` (default): Ubuntu 18.04 (alias to `18.04`)
+* `18.04`: Ubuntu 18.04
 * `16.04`: Ubuntu 16.04
 * `14.04`: Ubuntu 14.04
 
