@@ -8,6 +8,7 @@ Ubuntu Dockerfile with essential tools and packages
 
 
 ### Installation
+
 Execute either of the following:
 
     docker pull srdc/ubuntu:18.04 [latest]    [downloads the image from Docker Hub]
